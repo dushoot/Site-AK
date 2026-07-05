@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    background: #fcf8f7;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+.superhuman-page {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #fcf8f7;
+}
+
+.superhuman-stage {
+    position: relative;
+    width: min(100vw, 1440px);
+    aspect-ratio: 1440 / 1651;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fcf8f7;
+    color: #000;
+    transform-origin: top center;
+}
+
+.section-label,
+.problem-copy,
+.superhuman-subtitle,
+.solution-copy,
+.waitlist {
+    position: absolute;
+    margin: 0;
+}
+
+.section-label {
+    left: 12.708333%;
+    width: 79.652778%;
+    font-family: "Alegreya SC", Georgia, serif;
+    font-size: min(2.361111vw, 34px);
+    line-height: 1.4;
+    font-weight: 400;
+    text-shadow: min(0.416667vw, 6px) min(0.416667vw, 6px) 0 #fcf8f7;
+}
+
+.problem-label {
+    top: 5.633010%;
+}
+
+.solution-label {
+    top: 32.162326%;
+}
+
+.problem-copy,
+.solution-copy {
+    font-family: "Dela Gothic One", system-ui, sans-serif;
+    font-weight: 400;
+    font-size: min(2.361111vw, 34px);
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.problem-copy {
+    top: 9.509388%;
+    left: 12.708333%;
+    width: 79.652778%;
+    text-shadow: min(0.416667vw, 6px) min(0.416667vw, 6px) 0 #fcf8f7;
+}
+
+.superhuman-logo {
+    position: absolute;
+    top: 37.189582%;
+    left: 12.708333%;
+    width: 71.483333%;
+    height: 5.101575%;
+    display: block;
+}
+
+.superhuman-subtitle {
+    top: 44.336766%;
+    left: 12.708333%;
+    width: 64.444444%;
+    color: #f3b9b8;
+    font-family: "Dela Gothic One", system-ui, sans-serif;
+    font-weight: 400;
+    font-size: min(3.125vw, 45px);
+    line-height: 1.4;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.superhuman-subtitle span {
+    display: block;
+}
+
+.solution-copy {
+    top: 59.842520%;
+    left: 12.708333%;
+    width: 74.583333%;
+}
+
+.waitlist {
+    top: 80.617807%;
+    left: 12.638889%;
+    width: 74.583333%;
+}
+
+.waitlist-caption {
+    margin: 0 0 min(1.875vw, 27px);
+    font-family: "Dela Gothic One", system-ui, sans-serif;
+    font-size: min(1.666667vw, 24px);
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.waitlist-form {
+    position: relative;
+    width: 97.672253%;
+    aspect-ratio: 1049 / 77;
+    border: min(0.069444vw, 1px) solid #000;
+    border-radius: min(1.388889vw, 20px);
+    background: #fff;
+}
+
+.waitlist-form input {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 65.776930%;
+    height: 100%;
+    padding: min(0.208333vw, 3px) min(1.666667vw, 24px) 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #e13333;
+    font-family: "Alegreya SC", Georgia, serif;
+    font-size: min(2.222222vw, 32px);
+    line-height: 1.2;
+}
+
+.waitlist-form input::placeholder {
+    color: #e13333;
+    opacity: 1;
+}
+
+.waitlist-form button {
+    position: absolute;
+    top: 10.389610%;
+    right: 1.048618%;
+    width: 31.553861%;
+    height: 76.623377%;
+    padding: 0;
+    border: min(0.069444vw, 1px) solid #000;
+    border-radius: min(1.388889vw, 20px);
+    background: #000;
+    color: #fcf8f7;
+    font-family: "Alegreya SC", Georgia, serif;
+    font-size: min(2.222222vw, 32px);
+    line-height: 1.2;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.waitlist-form button:disabled {
+    cursor: wait;
+    opacity: 0.75;
+}
+
+.form-message {
+    min-height: min(2.222222vw, 32px);
+    margin: min(0.972222vw, 14px) 0 0;
+    font-family: "Alegreya SC", Georgia, serif;
+    font-size: min(1.666667vw, 24px);
+    line-height: 1.2;
+}
+
+.form-message[data-type="success"] {
+    color: #000;
+}
+
+.form-message[data-type="error"] {
+    color: #e13333;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}

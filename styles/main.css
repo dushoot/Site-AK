@@ -1,4 +1,4 @@
-/* Reset and base styles */
+/* Сброс и базовые стили */
 * {
     margin: 0;
     padding: 0;
@@ -24,9 +24,9 @@ main {
     align-items: flex-start;
 }
 
-/* Typography */
+/* Типографика */
 h1, h2 {
-    font-family: "Libre Baskerville", serif;
+    font-family: "Merriweather", Georgia, serif;
     color: black;
     margin-bottom: 1.5rem;
 }
@@ -43,7 +43,7 @@ h2 {
     font-weight: 400;
 }
 
-/* Header */
+/* Шапка */
 header {
     margin: 2rem 0 4rem;
     display: flex;
@@ -52,7 +52,7 @@ header {
     width: 100%;
 }
 
-/* Profile section */
+/* Профиль */
 .profile {
     display: flex;
     flex-direction: column;
@@ -112,7 +112,7 @@ header {
     100% { transform: rotate(0deg); }
 }
 
-/* Lists */
+/* Списки */
 ul, ol {
     padding-left: 2rem;
     margin-bottom: 1rem;
@@ -122,7 +122,7 @@ li {
     margin-bottom: 1rem;
 }
 
-/* Links */
+/* Ссылки */
 a {
     color: #000;
     text-decoration: none;
@@ -134,12 +134,12 @@ a:hover {
     opacity: 0.7;
 }
 
-/* Sections */
+/* Секции */
 section {
     margin-bottom: 4rem;
 }
 
-/* Timeline section */
+/* Таймлайн */
 .timeline {
     margin: 2rem 0 4rem;
 }
@@ -202,7 +202,7 @@ section {
     }
 }
 
-/* Updated footer */
+/* Дата обновления */
 .updated {
     margin-top: 4rem;
     margin-bottom: 2rem;
@@ -216,4 +216,3 @@ section {
     font-size: 0.9rem;
     margin: 0;
 }
-
