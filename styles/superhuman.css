@@ -204,6 +204,185 @@ input {
     border: 0;
 }
 
+@media (min-width: 1101px) and (max-width: 1439px) {
+    .superhuman-stage {
+        --desktop-gutter: clamp(26px, calc((100vw - 1074px) / 2), 183px);
+        width: 100%;
+        height: 1651px;
+        aspect-ratio: auto;
+    }
+
+    .section-label {
+        left: var(--desktop-gutter);
+        width: min(1147px, calc(100% - var(--desktop-gutter) - 48px));
+        font-size: 34px;
+        text-shadow: 6px 6px 0 #fcf8f7;
+    }
+
+    .problem-label {
+        top: 93px;
+    }
+
+    .solution-label {
+        top: 531px;
+    }
+
+    .problem-copy,
+    .solution-copy {
+        font-size: 34px;
+    }
+
+    .problem-copy {
+        top: 157px;
+        left: var(--desktop-gutter);
+        width: min(1147px, calc(100% - var(--desktop-gutter) - 48px));
+        text-shadow: 6px 6px 0 #fcf8f7;
+    }
+
+    .superhuman-logo {
+        top: 614px;
+        left: var(--desktop-gutter);
+        width: min(1029.36px, calc(100% - var(--desktop-gutter) - 48px));
+        height: 84.227px;
+    }
+
+    .superhuman-subtitle {
+        top: 732px;
+        left: var(--desktop-gutter);
+        width: min(928px, calc(100% - var(--desktop-gutter) - 48px));
+        font-size: 45px;
+    }
+
+    .solution-copy {
+        top: 988px;
+        left: var(--desktop-gutter);
+        width: min(1074px, calc(100% - var(--desktop-gutter) - 48px));
+    }
+
+    .waitlist {
+        top: 1331px;
+        left: var(--desktop-gutter);
+        width: min(1074px, calc(100% - var(--desktop-gutter) - 48px));
+    }
+
+    .waitlist-caption {
+        margin-bottom: 27px;
+        font-size: 24px;
+    }
+
+    .waitlist-form {
+        width: min(1049px, 100%);
+        border: 1px solid #000;
+        border-radius: 20px;
+    }
+
+    .waitlist-form input {
+        padding: 3px 24px 0;
+        font-size: 32px;
+    }
+
+    .waitlist-form button {
+        border: 1px solid #000;
+        border-radius: 20px;
+        font-size: 32px;
+    }
+
+    .form-message {
+        min-height: 32px;
+        margin-top: 14px;
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1100px) {
+    .superhuman-stage {
+        width: 100%;
+        height: 150.090909vw;
+        aspect-ratio: auto;
+    }
+
+    .section-label {
+        left: 2.363636vw;
+        width: 95.272728vw;
+        font-size: 3.090909vw;
+        text-shadow: 0.545455vw 0.545455vw 0 #fcf8f7;
+    }
+
+    .problem-label {
+        top: 8.454545vw;
+    }
+
+    .solution-label {
+        top: 48.272727vw;
+    }
+
+    .problem-copy,
+    .solution-copy {
+        font-size: 3.090909vw;
+    }
+
+    .problem-copy {
+        top: 14.272727vw;
+        left: 2.363636vw;
+        width: 95.272728vw;
+        text-shadow: 0.545455vw 0.545455vw 0 #fcf8f7;
+    }
+
+    .superhuman-logo {
+        top: 55.818182vw;
+        left: 2.363636vw;
+        width: 93.578182vw;
+        height: 7.657vw;
+    }
+
+    .superhuman-subtitle {
+        top: 66.545455vw;
+        left: 2.363636vw;
+        width: 84.363636vw;
+        font-size: 4.090909vw;
+    }
+
+    .solution-copy {
+        top: 89.818182vw;
+        left: 2.363636vw;
+        width: 95.272728vw;
+    }
+
+    .waitlist {
+        top: 121vw;
+        left: 2.363636vw;
+        width: 95.272728vw;
+    }
+
+    .waitlist-caption {
+        margin-bottom: 2.454545vw;
+        font-size: 2.181818vw;
+    }
+
+    .waitlist-form {
+        width: 100%;
+        border: 1px solid #000;
+        border-radius: 1.818182vw;
+    }
+
+    .waitlist-form input {
+        padding: 0.272727vw 2.181818vw 0;
+        font-size: 2.909091vw;
+    }
+
+    .waitlist-form button {
+        border: 1px solid #000;
+        border-radius: 1.818182vw;
+        font-size: 2.909091vw;
+    }
+
+    .form-message {
+        min-height: 2.909091vw;
+        margin-top: 1.272727vw;
+        font-size: 2.181818vw;
+    }
+}
+
 @media (max-width: 700px) {
     .superhuman-stage {
         width: 100%;
@@ -297,9 +476,9 @@ input {
     }
 
     .waitlist-form button {
-        flex: 0 0 43%;
-        max-width: 180px;
-        padding: 0 8px;
+        flex: 0 0 52%;
+        max-width: 260px;
+        padding: 0 10px;
         border: 1px solid #000;
     }
 
