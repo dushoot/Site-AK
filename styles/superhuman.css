@@ -124,6 +124,17 @@ input {
     letter-spacing: 0;
 }
 
+.waitlist-socials {
+    margin: min(1.111111vw, 16px) 0 0;
+}
+
+.waitlist-socials a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 0.06em;
+    text-underline-offset: 0.18em;
+}
+
 .waitlist-form {
     position: relative;
     width: 97.672253%;
@@ -270,6 +281,10 @@ input {
         font-size: 24px;
     }
 
+    .waitlist-socials {
+        margin: 16px 0 0;
+    }
+
     .waitlist-form {
         width: min(1049px, 100%);
         border: 1px solid #000;
@@ -359,6 +374,10 @@ input {
         font-size: 2.181818vw;
     }
 
+    .waitlist-socials {
+        margin: 1.454545vw 0 0;
+    }
+
     .waitlist-form {
         width: 100%;
         border: 1px solid #000;
@@ -446,6 +465,10 @@ input {
         margin-bottom: clamp(14px, 4vw, 22px);
         font-size: clamp(15px, 4.2vw, 20px);
         line-height: 1.35;
+    }
+
+    .waitlist-socials {
+        margin: clamp(14px, 4vw, 22px) 0 0;
     }
 
     .waitlist-form {
